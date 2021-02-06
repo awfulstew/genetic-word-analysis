@@ -44,8 +44,8 @@ def kmeans_analysis():
     for dna_chunk in dna_chunks
   ]
   data_frame = pd.DataFrame(feature_vectors)
-  pca_data = PCA(n_components=2).fit_transform(data_frame)
   scaled_data = StandardScaler().fit_transform(data_frame)
+  pca_data = PCA(n_components=2).fit_transform(scaled_data)
 
   # lets try cluster for six or seven clusters
   for cluster_count in range(6, 8):
