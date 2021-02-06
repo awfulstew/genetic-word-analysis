@@ -8,7 +8,6 @@ def chunked_dna_data_list(raw_string_data, chunk_length):
     for i in range(int(len(raw_string_data)/chunk_length))
   ]
 
-
 def letter_combinations(letters, word_length):
   # use the cartesian product to return every possible ordering of the input letters
   return [
