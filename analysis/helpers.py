@@ -15,7 +15,6 @@ def letter_combinations(letters, word_length):
     for combination in product(letters, repeat=word_length)
   ]
 
-
 def feature_vector(dna_chunk, word_combinations, word_length):
   # the counter type counts occurences in the underlying list which contains exactly the cut dna_chunk
   chunk_words_counter = Counter([
