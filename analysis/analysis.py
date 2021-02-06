@@ -35,7 +35,7 @@ def pca_analysis():
 def kmeans_analysis():
   # get out chunks of dna that we want to analyze
   dna_chunks = ccrescentus.ccresentus_dna_chunks(300)
-  plt.figure(figsize=(13, 7))
+  plt.figure(figsize=(13, 8))
 
   # generate the possible set of words with length 3
   possible_words = helpers.letter_combinations('acgt', 3)
