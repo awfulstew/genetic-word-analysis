@@ -1,7 +1,6 @@
 from itertools import product
 from collections import Counter
 
-
 def chunked_dna_data_list(raw_string_data, chunk_length):
   return [
     raw_string_data[chunk_length*i:chunk_length*i + chunk_length]
