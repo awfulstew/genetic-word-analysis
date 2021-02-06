@@ -1,0 +1,8 @@
+pandas 
+psycopg2-binary
+scikit-learn
+Matplotlib
+scikit-image
+seaborn
+Cython
+requests
